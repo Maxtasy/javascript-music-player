@@ -32,11 +32,13 @@
         <button class="Controls__Button Controls__Button--forward">
           <img src="./svg/forward-solid.svg" alt="" />
         </button>
-        <input type="range" id="volume" class="VolumeControl" min="0" max="1" value="0.5" step="0.01">
-      </div>
+        <input type="range" id="volume" class="VolumeControl" min="0" max="1" value="0.05" step="0.01">
+      </div>      
       <div class="MusicPlayer__SongDetails">
-        <p class="SongTitle">title</p>
-        <div class="ProgressBar"></div>
+        <p class="SongTitle"></p>
+        <div class="ProgressBar">
+          <div class="ProgressBar__CurrentProgress" data-current-time="0"></div>
+        </div>
       </div>
     </div>
     <audio src="" class="Audio"></audio>
